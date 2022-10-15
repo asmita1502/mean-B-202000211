@@ -4,10 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RandomComponent } from './random/random.component';
+import { NewComponent } from './new/new.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RandomComponent,
+    NewComponent
   ],
   imports: [
     BrowserModule,
